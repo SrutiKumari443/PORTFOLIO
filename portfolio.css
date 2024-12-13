@@ -1,0 +1,447 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(4, 4, 42);
+}
+.main-top{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(165, 165, 165); */
+    background-color: rgb(2, 2, 54);
+    box-shadow: 4px 8px 16px black;
+}
+.main-top p{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: maroon;
+    font-weight: 900;
+    position: relative;
+    left: 10%;
+   top: 10px;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes colorAnimate {
+    0%{
+        color: red;
+    }
+    50%{
+        color: greenyellow;
+    }
+    100%{
+        color: rgb(0, 140, 255);
+    }
+}
+.main-top a{
+    /* color: black; */
+    color: white;
+    text-align: center;
+   position: relative;
+   left: 60%;
+   bottom: 25px;
+   font-size: 20px;
+   margin: 20px;
+   font-weight: 900;
+}
+.main-top a:hover{
+    color: maroon;
+    text-decoration: underline;
+}
+.main-bottom{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.main-left{
+    height: 100%;
+    width: 40%;
+}
+.main-img{
+    height: 470px;
+    width: 420px;
+    background-image: url(images/girls2.jpg.png);
+    background-size: cover;
+    background-position: top right;
+    border-radius: 50%;
+   /* background-color: rgb(165, 165, 165); */
+   background-color: rgb(5, 5, 54);
+   position: relative;
+   top: 15%;
+   left: 15%;
+   box-shadow: 16px 32px 64px black;
+}
+.main-right{
+    height: 100%;
+    width: 60%;
+}
+.main-text{
+    height: 400px;
+    width: 700px;
+    /* background-color: red; */
+   position: relative;
+   top: 20%;
+   left: 15%;
+}
+.main-text h2{
+    /* color: black; */
+    color: white;
+    font-size: 40px;
+}
+.main-text h1{
+    /* color: black; */
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.main-text h1 b{
+   color: red;
+    font-size: 55px;
+}
+.main-text p{
+    /* color: black; */
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+    top: 5%;
+    font-weight: 900;
+   letter-spacing: 1px;
+   opacity: 0.7;
+}
+ #btn-1{
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   color: white;
+   background-color: red;
+   position: relative;
+   top: 90px;
+   border: none;
+   font-size: 20px;
+   font-weight: 900;
+   border-radius: 10px;
+}
+#btn-2{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: black;
+    /* background: black; */
+    background-color: white;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+ }
+ #btn-1:hover{
+    background-color: burlywood;
+ }
+ #btn-2:hover{
+    background-color: red;
+ }
+ .main-text i{
+  font-size: 40px;
+    border-radius: 40%;
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 45px;
+box-shadow: 8px 16px 32px black;
+margin: 10px;
+ }
+ /* ............ Skills .............. */
+ .main2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 2, 54);
+ }
+ /* .main2-top1{
+    height: 45%;
+    width: 100%;
+ } */
+ .main2-top{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(2, 2, 73);
+    text-align: center;
+    box-shadow: 8px 16px 32px black;
+    border: 2px solid white;
+ }
+ .main2-top h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+ }
+ .main2-middle{
+    height: 35%;
+    width: 100%;
+    /* border: 5px white solid; */
+ }
+ .main2-skills{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .skills1{
+height: 90%;
+width: 35%;
+/* background-color: red; */
+margin: 10px;
+border: 5px solid white;
+ }
+ .skills1-img{
+    height: 100px;
+    width: 80px;
+    background-image: url(images/html1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 35%;
+    box-shadow: 4px 8px 16px black;
+ }
+ .skills1 h1{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    opacity: 0.5;
+    color: white;
+ }
+ .skills2{
+    height: 90%;
+    width: 35%;
+    /* background-color: red; */
+    margin: 10px;
+    border: 5px solid white;
+     }
+     .skills2-img{
+        height: 100px;
+        width: 80px;
+        background-image: url(images/css.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+        left: 35%;
+        box-shadow: 4px 8px 16px black;
+     }
+     .skills2 h1{
+        font-size: 40px;
+        position: relative;
+        top: 30px;
+        left: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        opacity: 0.5;
+        color: white;
+     } 
+.skills3{
+ height: 90%;
+ width: 35%;
+ /* background-color: red; */
+ margin: 10px;
+ border: 5px solid white;
+  }
+  .skills3-img{
+    height: 100px;
+    width: 80px;
+    background-image: url(images/j.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: white;
+    top: 20px;
+    left: 35%;
+    box-shadow: 4px 8px 16px black;
+ }
+ .skills3 h1{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    opacity: 0.5;
+    color: white;
+ }
+ .skills4{
+ height: 90%; 
+ width: 35%;
+   /* background-color: red; */
+   margin: 10px;
+   border: 5px solid white;
+  }
+  .skills4-img{
+    height: 100px;
+    width: 80px;
+    background-image: url(images/java.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 35%;
+    box-shadow: 4px 8px 16px black;
+ }
+ .skills4 h1{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    opacity: 0.5;
+    color: white;
+ }
+ /* .main2-top2{
+   height: 55%;
+   width: 100%;
+} */
+ .main2-top2{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(2, 2, 73);
+    margin-top: 25px;
+   border: 2px solid white;
+ }
+ .main2-top2 h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+ }
+ .project{
+   height: 37%;
+   width: 100%;
+   box-shadow: 4px 8px 16px black;
+   margin-top: 15px;
+   border: 5px solid white;
+ }
+ .project h2{
+   font-size: 25px;
+text-decoration: underline;
+   margin-top: 20px;
+   color: white;
+   font-weight: 900;
+   position: relative;
+   left: 10px;
+ }
+ .project li{
+   font-size: 18px;
+   letter-spacing: 1px;
+   margin-top: 10px;
+   color: rgb(147, 144, 144);
+   opacity: 0.7;
+   font-weight: 800;
+   position: relative;
+   left: 10px; 
+ }
+ /* .........  page 3 ............. */
+ .main3{
+   height: 100%;
+   width: 100%;
+  background-color: rgb(2, 2, 37);
+ }
+
+.main3-top{
+   height: 50%;
+   width: 100%;
+  box-shadow: 4px 8px 16px rgb(12, 12, 12);
+}
+.main3-top-1{
+height: 25%;
+width: 100%;
+background-color: rgb(3, 3, 69);
+box-shadow: 8px 16px 32px rgb(12, 12, 12);
+text-align: center;
+border: 5px solid white;
+}
+.main3-top-1 h1{
+color: white;
+font-size: 60px;
+}
+.main3-top-2{
+   height: 70%;
+   width: 100%;
+   border: 5px solid white;
+   margin-top: 10px;
+   color: white;
+}
+.main3-top-2 h3{
+font-size: 24px;
+font-weight: 900;
+position: relative;
+left: 50px;
+top: 60px;
+}
+.main3-top-2 h4{
+   font-size: 24px;
+   font-weight: 900;
+position: relative;
+left: 50px;
+top: 80px;
+   }
+   .main3-top-2 h2{
+      font-size: 24px;
+      font-weight: 900;
+   position: relative;
+   left: 50px;
+   top: 70px;
+      }
+      .main3-top-2 h2 b{
+         opacity: 0.7;
+         font-size: 20px;
+      }
+      .main3-top-2 h3 b{
+         opacity: 0.7;
+         font-size: 20px;
+      }
+      .main3-top-2 h4 b{
+         opacity: 0.7;
+         font-size: 20px;
+      }
+.main3-bottom{
+   height: 50%;
+   width: 100%;
+  box-shadow: 4px 8px 16px rgb(12, 12, 12);
+}
+.main3-bottom-1{
+   height: 90%;
+   width: 100%;
+   border: 5px solid white;
+   margin-top: 15px;
+   color: white;
+}
+.main3-bottom-1 h1{
+   font-size: 45px;
+   font-weight: 900;
+ text-decoration: underline;
+ position: relative;
+ left: 30px;
+ top: 20px;
+}
+.main3-bottom-1 a{
+   color: white;
+   position: relative;
+   top: 40px;
+   left: 45px;
+   line-height: 30px;
+}
